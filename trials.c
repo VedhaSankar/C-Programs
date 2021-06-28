@@ -3,26 +3,39 @@ gcc trials.c -o "trials"
 ./trials
 */
 
-#include<stdio.h>
-struct point
-{
-    float x;
-	float y;
-};
+
+#include <stdio.h>
+
 int main()
 {
-	struct point or ,*p;
+    int a = "D";
+    printf(sizeof(a));
 
-    or = {
-        0.0,
-        0.0
-    };
-	*p = or;
-	
-    printf("%f%f",(*p).x,p->y);
-    printf("EEE");
     return 0;
 }
+
+
+
+// #include<stdio.h>
+// struct point
+// {
+//     float x;
+// 	float y;
+// };
+// int main()
+// {
+// 	struct point or ,*p;
+
+//     or = {
+//         0.0,
+//         0.0
+//     };
+// 	*p = or;
+	
+//     printf("%f%f",(*p).x,p->y);
+//     printf("EEE");
+//     return 0;
+// }
 
 /*
 
