@@ -11,7 +11,6 @@ int main ()
 
     char str1[] = "BC", str2[] = "BC";
     char dest[100];
-    char src[40];
 
     int res = strcmp(str1, str2);
       
@@ -25,12 +24,11 @@ int main ()
     int len = strlen (str1);
     printf ("The length of the string: %d \n", len);
 
-    printf ("Concatenated string: ");
     strcat(str1, str2);
-    printf ("%s \n", str1);
+    printf ("Concatenated string: %s \n", str1);
 
-    printf ("After copying the string: ");
     strcpy(dest, str1);
-    printf ("%s \n", dest);
+    printf ("After copying the string: %s \n", dest);
+    
     return 0;
 }
